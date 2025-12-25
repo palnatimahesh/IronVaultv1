@@ -63,6 +63,8 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install buildozer cython==0.29.36 virtualenv
+          pip install pillow
+          
 
       # 5. Build the APK (This takes 15-20 mins)
       - name: Build with Buildozer
