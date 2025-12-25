@@ -4,6 +4,11 @@ package.name = ironvault
 package.domain = org.ironvault
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
+
+# --- ICON CONFIGURATION ---
+# The name of your icon file (must be in the same folder as main.py)
+icon.filename = icon.png
+
 version = 1.0.0
 requirements = python3,kivy==2.2.0,kivymd==1.1.1,pillow,openssl,requests,urllib3,chardet,idna
 orientation = portrait
